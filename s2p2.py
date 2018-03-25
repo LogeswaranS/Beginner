@@ -7,9 +7,9 @@ def main():
     rev=rev*10+dig
     n=n//10
  if(temp==rev):
-    print("Yes")
+    print("Yes it's a palindrome")
  else:
-    print("No")
+    print("No its not a palindrome")
 
 if __name__ == '__main__':
     main()
