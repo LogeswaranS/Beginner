@@ -1,7 +1,7 @@
 def main():
-  m=int(input(""))
-  n=int(input(""))
-  for i in range(m+1,n+1):
+  a=int(input(""))
+  b=int(input(""))
+  for i in range(a+1,b+1):
     if(i%2!=0):
         print(i)
 if __name__ == '__main__':
